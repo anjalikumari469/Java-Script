@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables</title>
+</head>
+<body>
+  <script>
+    
+    let welcomeMessage = 'Hello Friends';
+    console.log('hello friends');
+    console.log(welcomeMessage);
+
+    let bagPrice = (15599-(10/100 * 15599))-272;
+    let jeansPrice = (2499-(41/100 * 2499))-29;
+    let bagValue = Math.round((jeansPrice + bagPrice + 25 + 20) * 118 / 100);
+    let bagSummary = `Your final Myntra Bag  is ₹${bagValue}`;
+    console.log(bagSummary);
+
+    // Updating value 
+    let i = 20;
+    let j = 10;
+    console.log(i + j);
+
+    let a = 10;
+    let b = 20;
+    let c = a + 4;
+    console.log(c);
+
+    c = b + 2;
+    console.log(c);
+
+// update value
+    let k = 10;
+    console.log(k);
+    // i+=5;
+    k = k + 5; 
+    console.log(k);
+
+    // short hand operator
+    let money = 1;
+    money += 5;   // money = 6
+    money -= 2;  // money = 4
+    money *= 3;  // money = 12
+    money /= 4;  // money = 3
+    money++;     // money = 4
+
+    const pi = 3.14159265359;
+    let radius = 4;
+    // pi = 2;
+    console.log(pi * radius * radius);
+
+  </script>
+</body>
+</html>
