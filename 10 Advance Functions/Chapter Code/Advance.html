@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADVANCE FUNCTION</title>
+</head>
+<body>
+  <script>
+     //ANONYMOUS FUNTIONS
+
+    // let sum=function(num1,num2){
+    //   return num1+num2;
+    // };
+    // let newSum = sum;
+    // console.log(sum(4,5));
+    // console.log(newSum(4,5));
+
+    // let sumThreeNumbers = function(num1,num2,num3,sumTwoNumber){
+    //   let sum1=sumTwoNumber(num1,num2);
+    //   return sumTwoNumber(sum1,num3);
+    // }
+    // console.log(sumThreeNumbers(4,5,1,sum));
+    // console.log(sumThreeNumbers);
+    // console.log(typeof sumThreeNumbers);
+
+         //Arrow Funtions    
+
+      // let sum = (num1,num2) => {
+      //   return num1 +num2;
+      // }
+      // console.log(sum(6,8));
+
+      // let square=num => num*num;
+      // console.log(square(5));
+      // console.log(typeof square);
+
+       //set time out
+
+     
+    //  setTimeout(
+    //     () =>
+    //   console.log('Subah ho gayi , uth jaao.'),5000);
+    //  console.log('alarm set');
+
+    let alarm = () =>
+      console.log(`Janu aaj Raat ka seen bna do. ${new Date()}`);
+      // let timerId =setTimeout(alarm,2000);
+      // console.log(`alarm set with timerID:${timerId}`);
+      // clearTimeout(timerId);
+
+      setInterval (alarm,1000);
+  </script>
+</body>
+</html>
